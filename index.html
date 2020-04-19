@@ -71,6 +71,7 @@
 					<section>
 						<h4 style="color: lime">This is how JWT Auth works</h4>
 						<img src="https://miro.medium.com/max/2000/1*3yU_Zbhj9zDZwboFLHS1rg.png" alt="">
+						<span style="font-size: 15px"> press &rarr; for next method</span>
 					</section>
 				</section>
 				<section>
@@ -78,12 +79,61 @@
 						<h1 style="color: lime">2. Password Hashing</h1>
 						<span style="font-size: 15px"> press &darr; to know more</span>
 					</section>
+					<section>
+						<h3 style="color: lime">What does the term Hashing Means??</h3>
+					</section>
+					<section>
+						<ul>
+							<li>Firstly, Hashing is not an Encryption.</li>
+							<li>Hashing is converting a readable string into a large unreadable coded string and <strong>we never generate the actual
+								string from this hash string now </strong>s.</li>
+							<li>Encryption is converting a readable string into an encrypted string but <strong>we can decrypt or re-generate the actual string</strong></li>
+						</ul>
+					</section>
+					<section>
+						<h3 style="color: lime">
+							Do you know how your password being stored in database?
+						</h3>
+					</section>
+					<section>
+						<h3 style="color: lime">
+							If it's stored as it is then developer can see your password and access your account.
+						</h3>
+						<h6>So what's the solution??</h6>
+					</section>
+					<section>
+						<h3 style="color: lime">
+							How Does Password Hashing works??
+						</h3>
+					</section>
+					<section>
+						<ul>
+							<li>As user we set-up our password its being converted into hash key and stored into the database.</li>
+							<li>So the developer can only see your hashed key not your actual password.</li>
+							<li>So how I'll do login next time if its stored as hashed string?? </li>
+						</ul>
+					</section>
+					<section>
+							<ul>
+								<li>When the user comes again for login then also his password get's hashed.</li>
+								<li>And we use such hash algorithms that same hash string will generate again and we get authorized and logged-In.</li>
+							</ul>
+					</section>
+					<section>
+						<h3 style="color: lime">Some Hash functions</h3>
+						<ul>
+							<li>Sha512</li>
+							<li>Sha256</li>
+							<li>md5</li>
+						</ul>
+					</section>
 				</section>
 				<section>
 					<section>
 						<h1 style="color: lime">3. SQL Injection</h1>
 						<span style="font-size: 15px"> press &darr; to know more</span>
 					</section>
+
 				</section>
 				<section>
 					<section>
