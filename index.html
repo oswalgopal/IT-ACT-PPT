@@ -133,7 +133,38 @@
 						<h1 style="color: lime">3. SQL Injection</h1>
 						<span style="font-size: 15px"> press &darr; to know more</span>
 					</section>
+					<section>
+						<h3 style="color: lime">What is SQL Injection??</h3>
+					</section>
+					<section>
+						<ul>
+							<li>SQL injection is the placement of malicious code in SQL statements via some inputs.</li>
+							<li>
+								for example : if in our database we had a query like this
+								<code>
+									SELECT * FROM users WHERE username = username  AND password = password;
+								</code>
+							</li>
+							<li>If user types username as <strong style="color:lime">"abcd OR 1 = 1"</strong> and password as
+								<strong style="color:lime">"pass OR 1 = 1"</strong>
+								then user the above query will run sucessfully and also returns all data of the user.
+							</li>
+							<li>
+								Now how to avoid such attacks??
+							</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li>Input validation and parametrized queries including prepared statements.</li>
+							<li>The application code should never use the input directly.</li>
+							<li>Using Single quotes is a good option.</li>
+						</ul>
+					</section>
+					<section>
+						<h6 style="color: lime">Example</h6>
 
+					</section>
 				</section>
 				<section>
 					<section>
